@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+#carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+#carousel .slide {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  flex: none;
+  transition: 0.3s all ease;
+}
+
+.slide-1 {
+  background: yellow;
+}
+
+.slide-2 {
+  background: red;
+}
+
+slide-3 {
+  background: blue;
+}
